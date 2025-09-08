@@ -38,3 +38,7 @@ for (int i = 1; i <= 12; i++)
 
     Console.WriteLine($"9 x {i} = {result}");
 }
+
+string[] shoppingList = {"egg", "milk", "salt", "yoghurt", "sugar" };
+
+Console.WriteLine($"i need to remember to buy {shoppingList[1]}.");
