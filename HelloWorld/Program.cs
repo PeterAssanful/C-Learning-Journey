@@ -1,2 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World! My journey of becoming a world class developwer has just started! Hurrayy! ");
+﻿string username = "Kwm;e";
+int userAge = 30;
+double accountBalance=124.56;
+bool isPremiumUser=true;
+
+Console.WriteLine($"Hello, {username}!");
+Console.WriteLine($"Age: {userAge}");
+Console.WriteLine($"Account Balance: ${accountBalance}");
+Console.WriteLine($"Premium User: {isPremiumUser}");
+
+
+
+string favoritFood="Fufu with Palm Nut Soup";
+int numberOfSiblings= 9;
+
+Console.WriteLine($"My favouritt food is {favoritFood}");
+Console.WriteLine($"I have {numberOfSiblings} siblings.");
