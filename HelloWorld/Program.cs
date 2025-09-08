@@ -26,3 +26,15 @@ else
 {
     Console.WriteLine("Access Denied: You still mama's breast milk");
 }
+
+for (int i = 1; i <= 5; i++)
+{
+    Console.WriteLine($"This is message number {i}");
+}
+
+for (int i = 1; i <= 12; i++)
+{
+    int result = 9 * i;
+
+    Console.WriteLine($"9 x {i} = {result}");
+}
